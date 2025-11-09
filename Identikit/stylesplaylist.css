@@ -1,0 +1,54 @@
+
+        aside{
+        display: inline-block;
+        width: 13%;
+        background-color: rgba(0, 0, 0, 0.571);
+        height: 100%;
+        }
+
+        aside li {
+        list-style-type: none;
+        background-color: aliceblue;
+        height: 21vh;
+        width: 10vw;
+        border-style: solid;
+        margin-left: 6%;
+        margin-bottom: 10%;
+        margin-top: 10%;
+        border-radius: 6px;
+        overflow: hidden; /**/
+        }
+
+        aside li img{
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        aside ul{
+            padding: 0 ;
+        }
+        main{
+        display: inline-block;
+        width: 79%;
+        background-color: rgba(0, 0, 0, 0.571);
+        height: 100%;
+        vertical-align: top;
+        }
+        .contenedor{
+            text-align: center;
+            height: 100%;
+        }
+
+        .selectorDeCancion{
+            display: flex;
+            align-items: center;
+            gap: 1.2em;
+            margin-bottom: 3.1em;
+            margin-top: 5em;
+        }
+
+        div span{
+            font-size: 1.2em;
+            color: white;
+        }

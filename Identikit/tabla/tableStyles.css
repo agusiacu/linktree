@@ -1,0 +1,30 @@
+body {
+    background-color: rgb(128, 128, 128); text-align: center;
+    background-image: url(https://images.pexels.com/photos/1237528/pexels-photo-1237528.jpeg?cs=srgb&dl=pexels-simonmigaj-1237528.jpg&fm=jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+table{
+    background-color: grey;
+    color: white; 
+}
+
+.textoInformativo {
+    text-align: center; 
+    font-size: 20px;
+}
+
+.notasDelModelo {
+    width: 130px;
+}
+
+.titulo{
+    text-align: center;
+    font-size: 32px; 
+    background-color: #332F2B;
+}
+
+td{
+    border-bottom: 2px solid;
+}

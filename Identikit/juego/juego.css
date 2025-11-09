@@ -1,0 +1,122 @@
+#ascii-ghostface {
+    margin-right: 2rem;
+    color: white;
+}
+
+#bodyJuego {
+    background-color: black;
+    margin: 0;
+}
+
+#bodyprueba {
+    background-color: black;
+    margin: 0;
+    margin-top: -0.6rem;
+    background-image: url(https://wallpaperswide.com/download/windows_xp_original-wallpaper-3554x1999.jpg);
+    background-size: auto;
+    background-position: center;
+}
+
+#tablaDeGif {
+    margin-left: 8vw;
+    border: 0.125rem solid white;
+}
+
+.asciiart {
+    color: white;
+}
+
+.textocmd {
+    font-family: 'Courier New', Courier, monospace, sans-serif;
+    color: white;
+}
+
+.mensajeemergente {
+    background-color: black;
+    border: 0.125rem solid red;
+    display: inline-block;
+    width: min(70vw, 37.5rem); /* máximo como antes, pero fluido */
+}
+
+.mensajeemergente2 {
+    background-color: black;
+    border: 0.125rem solid rgb(0, 255, 38);
+    display: inline-block;
+    width: min(50vw, 18.8rem);
+}
+
+.hazsidodectectado {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #181818;
+    border: 0.2rem solid #ff2222;
+    padding: 2rem 3rem;
+    box-shadow: 0 0 1.5rem #000a;
+    color: #fff;
+    min-width: 20rem;
+    max-width: 90vw;
+    text-align: center;
+    font-family: monospace;
+    font-size: clamp(1rem, 2.5vw, 1.6rem);
+}
+
+#mipclogo {
+    height: clamp(3rem, 6vw, 5rem);
+    margin-left: -12.5rem;
+    margin-top: 12.5rem;
+}
+
+#mycomputertexto {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    margin-left: -15.3rem;
+    margin-top: 0.3rem;
+    text-shadow: 0.125rem 0.125rem 0.3rem #000000;
+    font-size: clamp(0.8rem, 1.5vw, 1rem);
+}
+
+#textodetablaprogramadefirmware {
+    background-color: blue;
+    margin: 0;
+    margin-top: -0.2rem;
+    margin-left: -0.2rem;
+    margin-right: -0.2rem;
+    text-align: center;
+    color: whitesmoke;
+    font-size: clamp(0.8rem, 1.2vw, 1rem);
+}
+
+#tablaDeFirmwarePenetration {
+    border: 0.125rem solid blue;
+    margin-top: -2.5rem;
+    background-color: black;
+    width: min(90vw, 54rem);
+}
+
+#laberinto {
+    text-align: center;
+    font-size: clamp(0.6rem, 1vw, 0.7rem);
+    color: rgb(19, 204, 19);
+}
+
+#contenedorjuego {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+}
+
+#contador {
+  position: fixed;
+  top: 2vh;
+  right: 4vw;
+  color: #ff0404;
+  font-size: clamp(1.5rem, 3vw, 2.6rem);
+  font-family: monospace;
+  background: rgba(0,0,0,0.7);
+  padding: 0.5rem 1.1rem;
+  border-radius: 0.6rem;
+  z-index: 1000;
+}
