@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la pestaña actualizado -->
+    <title>SensationaL</title>
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <!-- Todo el header se mantiene idéntico -->
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <h1><a href="indexblog.html">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+    <button id="kebab-menu-btn" class="mobile-menu-link">
+        <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+    </button>
+
+    <ul class="nav">
+        <li><a href="indexblog.html">Inicio</a></li>
+        <li><a href="infoBlog.html">Info</a></li>
+        <li><a href="listadoBlog.html">Publicaciones</a></li>
+        <li><a href="formularioContacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <!-- Reutilizamos la clase 'feed-post' para el layout de artículo -->
+    <section class="feed-post">
+        <article>
+            <div class="post-categories">
+                <a href="">Sobre patineta</a>
+                <a href="">Montaña</a>
+                <a href="">Nieve</a>
+            </div>
+            <h2>Snowboarding: Find me on the mountain</h2>
+            
+            <p>Olvida el telesilla. La verdadera experiencia empieza en el descenso. El snowboarding no es solo un deporte; es la sensación de flotar sobre la nieve polvo. Es el silencio de la montaña roto solo por el sonido de tu tabla cortando la nieve, y la búsqueda de esa línea perfecta en un mar blanco. Desafiar a la montaña es solo el comienzo.</p> 
+
+            <p class="post-meta">
+                Publicado por <a href="">Agustin Iacuzzi</a> en 31 de Octubre de 2025
+            </p>
+            
+            <img src="imgBlog/fb1bb492990d8f15932e7161067b4c03.png" alt="Portada del post2" class="post-image" id="snowimg">
+            
+            <p>A diferencia del esquí, el snowboard ofrece una conexión única con la montaña, similar a la del surf con la ola. Todo tu cuerpo trabaja al unísono para controlar la tabla. Es una danza de equilibrio y gravedad, donde tus hombros dirigen y tus pies obedecen.</p>
+            
+            <h3>Freeride vs. Freestyle: Elige tu Estilo</h3>
+            <p>No todas las tablas son iguales. Tu estilo definirá tu equipo. Si buscas velocidad y bajar por pendientes vírgenes (fuera de pista), una tabla de <strong>Freeride</strong> (direccional, más rígida) es para ti. Si lo tuyo son los saltos, los rieles y el snowpark, necesitas una tabla <strong>Freestyle</strong> (twin-tip, más flexible) para dominar los trucos.</p>
+            
+            <h3>La Leyenda: Travis Rice</h3>
+            
+            <div class="articulo-flexible">
+                <div class="columna-texto">
+                    <p>Cuando se habla de llevar el snowboard al siguiente nivel, un nombre resuena por encima de todos: <strong>Travis Rice</strong>. Este innovador no solo ha ganado múltiples medallas en los X Games, sino que ha redefinido lo que es posible en el "backcountry".</p>
+                    <p>En películas como "The Art of Flight", Rice lleva el freeride a terrenos imposibles, saltando acantilados gigantes y encontrando líneas en montañas que parecen inaccesibles. Para él, la montaña no es un resort, es un lienzo en blanco para la creatividad y el riesgo extremo.</p>
+                </div>
+
+                <div class="columna-video">
+                    <div class="video-responsive">
+                        <video src="imgBlog/ssVid.net--The-Best-of-The-Art-of-Flight_480p.mp4" controls width="100%"></video>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <a href="pagina2.html" class="read-more" style="background-color: #555;">&larr; Volver a Publicaciones</a>
+        
+        </article>
+        
+    </section>
+        
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Mapa del Sitio</h3>
+            <ul class="sitemap-list">
+                <li><a href="indexblog.html">Inicio</a></li>
+                <li><a href="infoBlog.html">Info</a></li>
+                <li><a href="listadoBlog.html">Publicaciones</a></li>
+                <li><a href="formularioContacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Recibe las últimas noticias de SensationaL.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                <button type="submit">Suscribir</button>
+                <p id="newsletter-mensaje"></p>
+            </form>
+        </div>
+
+        <div class="footer-col">
+            <h3>Síguenos</h3>
+            <ul class="redes">
+                <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        <ul class="nav-modal-list">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // Simulación de Newsletter
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); 
+        const email = newsletterEmail.value;
+        if (email && email.includes('@')) {
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50';
+            newsletterEmail.value = ''; 
+        } else {
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; 
+        }
+    });
+</script>
+<script>
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+</body>
+</html>

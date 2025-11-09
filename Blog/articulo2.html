@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la pestaña actualizado -->
+    <title>SensationaL</title>
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <!-- Todo el header se mantiene idéntico -->
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <!-- El H1 ahora apunta al inicio -->
+        <h1><a href="indexblog.html">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+    <button id="kebab-menu-btn" class="mobile-menu-link">
+        <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+    </button>
+
+    <ul class="nav">
+        <!-- El enlace "Inicio" ya no está activo -->
+        <li><a href="indexblog.html">Inicio</a></li>
+        <li><a href="infoBlog.html">Info</a></li>
+        <li><a href="listadoBlog.html">Publicaciones</a></li>
+        <li><a href="formularioContacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <section class="feed-post">
+        <article>
+            <div class="post-categories">
+                <a href="">Sin equipamiento</a>
+                <a href="">Escalada</a>
+                <a href="">Alto Riesgo</a>
+            </div>
+            <h2>Free solo climbing: ¿Estas tan loco como para practicarlo?</h2>
+            
+            <p>Un paso a la vez. No hay cuerdas, no hay arnés, no hay red. En el "free solo climbing", el más mínimo error es el último. Es la forma más pura y peligrosa de escalada, una danza silenciosa donde la concentración lo es todo y el premio es simple: seguir con vida.</p> 
+
+            <p class="post-meta">
+                Publicado por <a href="">Agustin Iacuzzi</a> en 3 de Noviembre de 2025
+            </p>
+            <center>
+            <img src="imgBlog/wolfgang-gullich-separate-reality-free-solo.avif" alt="Portada del post" class="post-image" id="freesoloimagen">
+            </center>
+            <p>A diferencia de la escalada deportiva o el búlder, el free solo no permite margen de error. Los escaladores que lo practican, como el legendario Wolfgang Güllich (en la foto de portada) o el moderno ícono Alex Honnold, no solo entrenan su cuerpo al límite, sino que desarrollan una fortaleza mental casi sobrehumana.</p>
+            
+            <h3>Control Mental: La Verdadera Cuerda</h3>
+            <p>La pregunta más común es "¿cómo lo hacen?". La respuesta no está en la fuerza de los dedos, sino en el control del miedo. Los escaladores de free solo describen un estado de "fluidez" (flow) total, donde el mundo exterior desaparece y solo existe la roca y el siguiente movimiento. Es una meditación activa donde el pánico está prohibido.</p>
+            
+            <h3>El Hito: Alex Honnold y "El Capitán"</h3>
+            
+            <div class="articulo-flexible">
+                <div class="columna-texto">
+                    <p>En 2017, Alex Honnold hizo lo que muchos consideraban imposible: escaló la pared de "El Capitán" en Yosemite, una mole de granito de casi 900 metros, en modalidad free solo. Le tomó 3 horas y 56 minutos.</p>
+                    
+                    <p>Este logro, documentado en el film ganador del Oscar "Free Solo", no solo redefinió los límites del deporte, sino que expuso al mundo la increíble disciplina y el riesgo calculado que implica esta actividad. Para Honnold, no fue un acto suicida, sino la culminación de años de práctica meticulosa y memorización de cada agarre y cada paso.</p>
+                </div>
+                <br>
+                <div class="columna-video">
+                    <div class="video-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/urRVZ4SW7WU?si=vDU2AGnQ2gSw5f7O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <a href="indexblog.html" class="read-more" style="background-color: #555;">&larr; Volver al inicio</a>
+        
+        </article>
+        
+    </section>
+        
+
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Mapa del Sitio</h3>
+            <ul class="sitemap-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="infoBlog.html">Info</a></li>
+                <li><a href="listadoBlog.html">Publicaciones</a></li>
+                <li><a href="formularioContacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Recibe las últimas noticias de SensationaL.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                <button type="submit">Suscribir</button>
+                <p id="newsletter-mensaje"></p>
+            </form>
+        </div>
+
+        <div class="footer-col">
+            <h3>Síguenos</h3>
+            <ul class="redes">
+                <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        <ul class="nav-modal-list">
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); 
+        
+        const email = newsletterEmail.value;
+
+        if (email && email.includes('@')) {
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50';
+            newsletterEmail.value = ''; 
+        } else {
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; 
+        }
+
+    });
+</script>
+
+<script>
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+</body>
+</html>

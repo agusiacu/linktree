@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SensationaL - Info</title>
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <h1><a href="">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+    <button id="kebab-menu-btn" class="mobile-menu-link">
+        <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+    </button>
+
+    <ul class="nav">
+        <li><a href="indexblog.html">Inicio</a></li>
+        <li><a href="infoBlog.html">Info</a></li>
+        <li><a href="listadoBlog.html" style="color: #ff3838;">Publicaciones</a></li>
+        <li><a href="formularioContacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+        <section class="feed">
+            <h1>Todas las publicaciones</h1>
+            <hr>
+
+            <article class="mini-post">
+                <a href="articulo1.html" class="img-link">
+                    <img src="imgBlog/skateboarding-collection.avif" alt="Skate">
+                </a>
+                <div class="contenido">
+                    <a href="articulo1.html">
+                        <h2>Skateboarding is not a crime</h2>
+                    </a>
+                    <p class="post-meta">3 de Noviembre de 2025</p>
+                </div>
+            </article>
+
+            <article class="mini-post">
+                <a href="articulo3.html" class="img-link">
+                    <img src="imgBlog/fb1bb492990d8f15932e7161067b4c03.png" alt="Snowboard">
+                </a>
+                <div class="contenido">
+                    <a href="#">
+                        <h2>Snowboarding: Find me on the mountain</h2>
+                    </a>
+                    <p class="post-meta">31 de Octubre de 2025</p>
+                </div>
+            </article>
+
+            <article class="mini-post">
+                <a href="#" class="img-link">
+                    <img src="imgBlog/fmx-piloto-tom-pages-en-accion.jpg" alt="Motocross">
+                </a>
+                <div class="contenido">
+                    <a href="articulo5.html">
+                        <h2>Motocross: Get on the ride!</h2>
+                    </a>
+                    <p class="post-meta">16 de Octubre de 2025</p>
+                </div>
+
+            </article>
+
+                        <article class="mini-post">
+                <a href="articulo2.html" class="img-link">
+                    <img src="imgBlog/wolfgang-gullich-separate-reality-free-solo.avif" alt="climbing">
+                </a>
+                <div class="contenido">
+                    <a href="#">
+                        <h2>Free solo climbing: ¿Estas tan loco como para practicarlo?</h2>
+                    </a>
+                    <p class="post-meta">3 de Noviembre de 2025</p>
+                </div>
+            </article>
+
+                        <article class="mini-post">
+                <a href="articulo4.html" class="img-link">
+                    <img src="imgBlog/rally.jpg" alt="rally">
+                </a>
+                <div class="contenido">
+                    <a href="#">
+                        <h2>Rally: Si todo parece bajo control, es porque no vas lo suficientemente rápido.</h2>
+                    </a>
+                    <p class="post-meta">16 de Octubre de 2025</p>
+                </div>
+            </article>
+
+        </section>
+
+    </main>
+    <div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <!-- Botón para cerrar el modal -->
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        
+        <!-- Lista de enlaces (la misma que en el nav) -->
+        <ul class="nav-modal-list">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+    </div>
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Mapa del Sitio</h3>
+                <ul class="sitemap-list">
+                    <li><a href="indexblog.html">Inicio</a></li>
+                    <li><a href="infoBlog.html">Info</a></li>
+                    <li><a href="listadoBlog.html">Publicaciones</a></li>
+                    <li><a href="formularioContacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Recibe las últimas noticias de SensationaL.</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                    <button type="submit">Suscribir</button>
+                    <p id="newsletter-mensaje"></p>
+                </form>
+            </div>
+
+            <div class="footer-col">
+                <h3>Síguenos</h3>
+                <ul class="redes">
+                    <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                    <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                    <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+        </div>
+    </footer>    
+
+    <script>
+    // Simulación de Newsletter
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); // Previene que la página se recargue
+        
+        const email = newsletterEmail.value;
+
+        if (email && email.includes('@')) {
+            // Simulación exitosa
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50'; // Verde
+            newsletterEmail.value = ''; // Limpia el campo
+        } else {
+            // Simulación de error
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; // Rojo
+        }
+
+    });
+</script>
+
+    <script>
+    // 1. Seleccionamos los elementos que necesitamos
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    // 2. Abrir modal cuando se hace clic en el botón kebab
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    // 3. Cerrar modal cuando se hace clic en la 'X'
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    // 4. (Opcional) Cerrar modal si se hace clic en el fondo oscuro
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linktree: Agustín Iacuzzi</title>
+    
+    <!-- Importamos las fuentes de tu blog -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Teko:wght@500;700&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #1a1a1a;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23333333' fill-opacity='0.2'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+            
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            min-height: 95vh;
+            box-sizing: border-box; 
+        }
+
+        /* Contenedor principal: responsive */
+        .container {
+            font-family: 'Roboto', sans-serif;
+            text-align: center;
+            max-width: 600px; 
+            width: 90%;       
+            padding: 20px;
+            background-color: rgba(20, 20, 20, 0.7);
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Imagen de perfil */
+        .perfil-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%; 
+            margin-top: 10px;
+            border: 4px solid white;
+            object-fit: cover;
+        }
+
+        /* Tipografía de tu blog */
+        h1, h2 {
+            font-family: 'Teko', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            letter-spacing: 1px;
+            margin: 10px 0;
+        }
+        
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: #ccc;
+        }
+
+        h3 {
+            font-weight: 400;
+            line-height: 1.6;
+            color: #ddd;
+        }
+
+        .sociales {
+            display: flex;
+            justify-content: center;
+            gap: 25px; 
+            margin: 20px 0;
+        }
+
+        .sociales a img {
+            width: 35px;
+            height: 35px;
+            transition: transform 0.2s ease;
+        }
+
+        .sociales a:hover img {
+            transform: scale(1.15); 
+        }
+
+        .links-container {
+            display: flex;
+            flex-direction: column;
+            gap: 15px; 
+            margin-top: 25px;
+        }
+
+        .links {
+            font-family: 'Teko', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            
+            display: block; 
+            width: 100%;
+            padding: 15px 0; 
+            
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            text-decoration: none;
+            
+            transition: all 0.3s ease;
+        }
+
+        /* Efecto HOVER (usando el rojo de tu blog) */
+        .links:hover {
+            background-color: #ff3838;
+            border-color: #ff3838;
+            box-shadow: 0 0 15px rgba(255, 56, 56, 0.5);
+            transform: scale(1.02);
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="imgGeneral/WhatsApp Image 2025-11-08 at 11.50.37 AM.jpeg" alt="Foto de perfil" class="perfil-img">
+        
+        <h1>Agustin Iacuzzi</h1>
+        <h2>¡Bienvenido a mi Linktree!</h2>
+        
+        <h3>Actualmente soy estudiante de la Licenciatura en Gestión de Tecnologías de la Información y quiero que conozcas mis proyectos de diseño web.</h3>
+        
+        <div class="sociales">
+            <a href="#"><img src="Identikit/img/icons8-nuevo-post-24.png" alt="Email"></a>
+            <a href="#"><img src="Identikit/img/icons8-linkedin-50.png" alt="LinkedIn"></a>
+            <a href="#"><img src="Identikit/img/icons8-github-150.png" alt="GitHub"></a>
+        </div>
+        
+        <div class="links-container">
+            <a href="Identikit/index.html" class="links">Identikit</a>
+            <a href="Blog/indexblog.html" class="links">Blog (SensationaL)</a>
+            <a href="#" class="links">Tienda (Próximamente)</a>
+        </div>
+    </div>
+
+</body>
+</html>

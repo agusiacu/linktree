@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <h1><a href="indexblog.html">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+        <button id="kebab-menu-btn" class="mobile-menu-link">
+            <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+        </button>
+
+        <ul class="nav">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html" style="color: #ff3838;">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section class="feed">
+        <article class="contacto-article">
+            <h2>Recomienda un Deporte</h2>
+            <hr>
+            <p>¿Conoces alguna disciplina extrema que nos falta cubrir? ¿Tienes una historia increíble que contar? Llena este formulario y nos pondremos en contacto contigo.</p>
+
+            <form action="#" method="POST" class="form-principal">
+                
+                <div class="campo">
+                    <label for="nombre">Tu Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej: Tony Hawk" required>
+                </div>
+
+                <div class="campo">
+                    <label for="email">Tu Email:</label>
+                    <input type="email" id="email" name="email" placeholder="ejemplo@email.com" required>
+                </div>
+
+                <div class="campo">
+                    <label for="pais">Tu País:</label>
+                    <select id="pais" name="pais">
+                        <option value="">Selecciona tu país</option>
+                        <option value="argentina">Argentina</option>
+                        <option value="brasil">Brasil</option>
+                        <option value="chile">Chile</option>
+                        <option value="colombia">Colombia</option>
+                        <option value="españa">España</option>
+                        <option value="eeuu">Estados Unidos</option>
+                        <option value="francia">Francia</option>
+                        <option value="mexico">México</option>
+                        <option value="peru">Perú</option>
+                        <option value="uruguay">Uruguay</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+
+
+                <div class="campo">
+                    <label for="mensaje">Tu Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Cuéntanos los detalles..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar Recomendación</button>
+
+            </form>
+            </article>
+    </section>
+
+    <aside>
+        <section class="perfil">
+            <h3>Hola, soy Agustín</h3>
+            <img src="imgBlog/e1cd04dcf424e5f3c6469d037241c77f.jpg" alt="Foto de Agustin">
+            <p>¡Espero tus mensajes para hacer crecer esta comunidad!</p>
+        </section>
+
+    </aside>
+
+
+</main>
+
+<footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>Mapa del Sitio</h3>
+                <ul class="sitemap-list">
+                    <li><a href="indexblog.html">Inicio</a></li>
+                    <li><a href="infoBlog.html">Info</a></li>
+                    <li><a href="listadoBlog.html">Publicaciones</a></li>
+                    <li><a href="formularioContacto.html">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <p>Recibe las últimas noticias de SensationaL.</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                    <button type="submit">Suscribir</button>
+                    <p id="newsletter-mensaje"></p>
+                </form>
+            </div>
+
+            <div class="footer-col">
+                <h3>Síguenos</h3>
+                <ul class="redes">
+                    <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                    <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                    <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+<div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <!-- Botón para cerrar el modal -->
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        
+        <!-- Lista de enlaces (la misma que en el nav) -->
+        <ul class="nav-modal-list">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // Simulación de Newsletter
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); // Previene que la página se recargue
+        
+        const email = newsletterEmail.value;
+
+        if (email && email.includes('@')) {
+            // Simulación exitosa
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50'; // Verde
+            newsletterEmail.value = ''; // Limpia el campo
+        } else {
+            // Simulación de error
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; // Rojo
+        }
+
+    });
+</script>
+
+<script>
+    // 1. Seleccionamos los elementos que necesitamos
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    // 2. Abrir modal cuando se hace clic en el botón kebab
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    // 3. Cerrar modal cuando se hace clic en la 'X'
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    // 4. (Opcional) Cerrar modal si se hace clic en el fondo oscuro
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+
+</body>
+</html>

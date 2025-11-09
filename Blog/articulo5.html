@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título de la pestaña actualizado -->
+    <title>SensationaL</title>
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <!-- Todo el header se mantiene idéntico -->
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <h1><a href="indexblog.html">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+    <button id="kebab-menu-btn" class="mobile-menu-link">
+        <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+    </button>
+
+    <ul class="nav">
+        <li><a href="indexblog.html">Inicio</a></li>
+        <li><a href="infoBlog.html">Info</a></li>
+        <li><a href="listadoBlog.html">Publicaciones</a></li>
+        <li><a href="formularioContacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <section class="feed-post">
+        <article>
+            <div class="post-categories">
+                <a href="">Sobre motocicleta</a>
+                <a href="">2 ruedas</a>
+                <a href="">Tierra</a>
+            </div>
+            <h2>Motocross: Get on the ride!</h2>
+            
+            <p style="font-style: italic; font-size: 1.1em; color: #555;">"¿Para que tenerle miedo a la muerte si es lo unico que tenemos asegurado?"</p> 
+
+            <p class="post-meta">
+                Publicado por <a href="">Agustin Iacuzzi</a> en 16 de Octubre de 2025
+            </p>
+            
+            <img src="imgBlog/fmx-piloto-tom-pages-en-accion.jpg" alt="Portada del post" class="post-image">
+            
+            <p>No es asfalto limpio. Es barro, gasolina y el rugido de un motor a 10,000 RPM. El motocross no es solo velocidad; es dominar el caos. Es la adrenalina más sucia y ruidosa que existe, una disciplina que exige una resistencia física de élite y una valentía de acero.</p>
+            
+            <h3>La Diferencia: MX vs. FMX</h3>
+            <div class="articulo-flexible">
+            <div class="columna-texto">
+            <p>Aunque a menudo se confunden, el Motocross (MX) y el Freestyle Motocross (FMX) son dos caras de la misma moneda de adrenalina. El <b>Motocross (MX)</b> es una carrera de velocidad pura en un circuito todoterreno cerrado, lleno de saltos, baches (whoops) y curvas cerradas. Es una batalla de resistencia y estrategia contra otros pilotos.</p>
+            <p>El <b>Freestyle (FMX)</b>, por otro lado, es el lado salvaje. No se trata de quién es más rápido, sino de quién desafía la gravedad con más estilo. Los pilotos realizan trucos aéreos que parecen imposibles: backflips, supermans y tsunamis sobre rampas gigantes.</p>
+            </div>
+            <div class="columna-video">
+                <img src="https://i.pinimg.com/originals/03/ca/ab/03caaba5010fc59d73de31b1f9882801.gif" style="width: 100%;" alt="">
+            </div>
+        </div>
+            <div class="articulo-flexible">
+                <div class="columna-texto">
+                    <h3>El Vuelo de la Leyenda: Travis Pastrana</h3>
+                    <p>No se puede hablar de FMX sin nombrar a Travis Pastrana. Este ícono no solo inventó trucos (como el Doble Backflip), sino que popularizó el deporte a nivel mundial con los X Games y su show, Nitro Circus.</p>
+                    <p>Pastrana demostró que el motocross no era solo competir, sino entretener, empujando los límites de lo que se creía posible sobre dos ruedas. Su mentalidad de "todo o nada" define perfectamente el espíritu del freestyle.</p>
+                </div>
+
+                <div class="columna-video">
+                    <div class="video-responsive">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/iBjTZIkD6cs?si=TtiwsFrE7RF5GMsb&amp;start=4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+
+            <hr>
+            <a href="pagina2.html" class="read-more" style="background-color: #555;">&larr; Volver a Publicaciones</a>
+        
+        </article>
+        
+    </section>
+        
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Mapa del Sitio</h3>
+            <ul class="sitemap-list">
+                <li><a href="indexblog.html">Inicio</a></li>
+                <li><a href="infoBlog.html">Info</a></li>
+                <li><a href="listadoBlog.html">Publicaciones</a></li>
+                <li><a href="formularioContacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Recibe las últimas noticias de SensationaL.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                <button type="submit">Suscribir</button>
+                <p id="newsletter-mensaje"></p>
+            </form>
+        </div>
+
+        <div class="footer-col">
+            <h3>Síguenos</h3>
+            <ul class="redes">
+                <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+<div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        <ul class="nav-modal-list">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); 
+        const email = newsletterEmail.value;
+        if (email && email.includes('@')) {
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50';
+            newsletterEmail.value = ''; 
+        } else {
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; 
+        }
+    });
+</script>
+<script>
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+</body>
+</html>

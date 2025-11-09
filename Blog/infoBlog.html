@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SensationaL - Info</title> <!-- Título actualizado -->
+    <link rel="stylesheet" href="estilosBlog.css">
+    <link href="https://fonts.googleapis.com/css2?family=Frijole&family=Roboto:wght@400;700&family=Teko:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<header>
+    <div class="header-top">
+        <ul class="redes">
+            <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+            <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+        </ul>
+    </div>
+    
+    <div class="header-main">
+        <!-- Enlace al inicio -->
+        <h1><a href="indexblog.html">SensationaL</a></h1>
+    </div>
+
+    <nav class="header-nav">
+    <button id="kebab-menu-btn" class="mobile-menu-link">
+        <img src="https://static.thenounproject.com/png/659816-200.png" alt="Menú" class="kebab-img">
+    </button>
+
+    <ul class="nav">
+        <li><a href="indexblog.html">Inicio</a></li>
+        <!-- Marcamos Info como la página activa -->
+        <li><a href="infoBlog.html" style="color: #ff3838;">Info</a></li>
+        <li><a href="listadoBlog.html">Publicaciones</a></li>
+        <li><a href="formularioContacto.html">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+
+<main>
+    <!-- Reutilizamos la clase 'feed' para el contenedor principal -->
+    <section class="feed">
+        <!-- Reutilizamos 'info-article' para el contenido -->
+        <article class="info-article">
+            
+            <h2>Sobre SensationaL</h2>
+            <hr>
+            
+            <h3>Nuestra Misión</h3>
+            <p><strong>SensationaL</strong> nació de una idea simple: la adrenalina es mejor cuando se comparte. No somos solo un blog; somos un punto de encuentro para aquellos que viven al límite. Nuestra misión es inspirar, motivar y documentar la cultura de los deportes extremos, demostrando hazañas grandiosas y contando las historias humanas detrás de cada salto, cada truco y cada caída.</p>
+
+            <h3>Nuestra Filosofía</h3>
+            <p>Creemos que el miedo es un motor, no un freno. Celebramos la perseverancia, la disciplina y la creatividad. Desde el skate urbano hasta el montañismo más solitario, cada disciplina es una forma de arte. Aquí no juzgamos, exploramos.</p>
+
+            <h3>¿Qué encontrarás aquí?</h3>
+            <ul>
+                <li><b>Historias Reales:</b> Documentamos las aventuras de los referentes más grandes de los deportes extremos, con análisis y perspectivas únicas.</li>
+                <li><b>Videos y Análisis:</b> Seleccionamos los videos más impactantes (como los del Grupo B o el free solo de Honnold) y te contamos el contexto detrás de ellos.</li>
+                <li><b>Comunidad:</b> Un espacio para que puedas contactarnos y recomendar el próximo deporte o atleta que deberíamos cubrir. ¡Tu voz es parte de SensationaL!</li>
+            </ul>
+
+        </article>
+    </section>
+
+    <aside>
+        <section class="perfil">
+            <h3>¡Gracias por visitar mi blog!</h3>
+            <img src="imgBlog/e1cd04dcf424e5f3c6469d037241c77f.jpg" alt="Foto de Agustin">
+            <p>Hola, soy Agustín. Gracias por ser parte de esta comunidad que no le teme a nada y busca siempre ir por más.</p>
+        </section>
+
+        <section class="proximos">
+            <h3>Nuestros Artículos</h3>
+            
+            <div class="proximo-post">
+                <img src="imgBlog/skateboarding-collection.avif" alt="Avance Skate">
+                <a href="articulo1.html">Skateboarding is not a crime</a>
+            </div>
+
+            <div class="proximo-post">
+                <img src="imgBlog/rally.jpg" alt="Avance Rally">
+                <a href="articulo4.html">Rally: La era del Grupo B</a>
+            </div>
+        </section>
+    </aside>
+</main>
+
+<footer>
+    <div class="footer-container">
+        <div class="footer-col">
+            <h3>Mapa del Sitio</h3>
+            <ul class="sitemap-list">
+                <li><a href="indexblog.html">Inicio</a></li>
+                <li><a href="infoBlog.html">Info</a></li>
+                <li><a href="listadoBlog.html">Publicaciones</a></li>
+                <li><a href="formularioContacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>Recibe las últimas noticias de SensationaL.</p>
+            <form id="newsletter-form">
+                <input type="email" id="newsletter-email" placeholder="Tu email..." required>
+                <button type="submit">Suscribir</button>
+                <p id="newsletter-mensaje"></p>
+            </form>
+        </div>
+
+        <div class="footer-col">
+            <h3>Síguenos</h3>
+            <ul class="redes">
+                <li><a href="#"><img src="imgBlog/insta.png" alt="Instagram" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/youtube-app-white-icon.png" alt="Yotube" class="redes-img"></a></li>
+                <li><a href="#"><img src="imgBlog/62012ee14babde0004ca4177.png" alt="Tiktok" class="redes-img"></a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>© 2025 - SensationaL. Todos los derechos reservados.</p>
+    </div>
+</footer>
+    
+<div id="nav-modal" class="modal-overlay">
+    <div class="modal-content">
+        <button id="modal-close-btn" class="modal-close-btn">&times;</button>
+        <ul class="nav-modal-list">
+            <li><a href="indexblog.html">Inicio</a></li>
+            <li><a href="infoBlog.html">Info</a></li>
+            <li><a href="listadoBlog.html">Publicaciones</a></li>
+            <li><a href="formularioContacto.html">Contacto</a></li>
+        </ul>
+    </div>
+</div>
+
+<script>
+    // Simulación de Newsletter
+    const newsletterForm = document.getElementById('newsletter-form');
+    const newsletterEmail = document.getElementById('newsletter-email');
+    const newsletterMsg = document.getElementById('newsletter-mensaje');
+
+    newsletterForm.addEventListener('submit', (e) => {
+        e.preventDefault(); 
+        const email = newsletterEmail.value;
+        if (email && email.includes('@')) {
+            newsletterMsg.textContent = '¡Gracias por suscribirte!';
+            newsletterMsg.style.color = '#4CAF50';
+            newsletterEmail.value = ''; 
+        } else {
+            newsletterMsg.textContent = 'Por favor, ingresa un email válido.';
+            newsletterMsg.style.color = '#ff3838'; 
+        }
+    });
+</script>
+<script>
+    // Control del Modal
+    const openModalBtn = document.getElementById('kebab-menu-btn');
+    const closeModalBtn = document.getElementById('modal-close-btn');
+    const modal = document.getElementById('nav-modal');
+
+    openModalBtn.addEventListener('click', () => {
+        modal.classList.add('modal-open');
+    });
+
+    closeModalBtn.addEventListener('click', () => {
+        modal.classList.remove('modal-open');
+    });
+
+    modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+            modal.classList.remove('modal-open');
+        }
+    });
+</script>
+</body>
+</html>
