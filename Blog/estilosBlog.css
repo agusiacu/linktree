@@ -689,6 +689,10 @@ footer {
         flex-direction: column; 
     }
 
+    aside{
+        width: 100%;
+    }
+
     .btn-enviar {
         width: auto; 
     }
